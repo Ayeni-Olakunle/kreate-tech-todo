@@ -1,0 +1,54 @@
+.container1 {
+  width: 35%;
+  margin-top: 20px;
+}
+.container2 {
+  box-shadow: 5px 5px 5px #e7e7e7, -5px -5px 5px #e7e7e7;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.switchButin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.holdInfo {
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  color: gray;
+  margin: 0;
+}
+
+.padMe {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container1 {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container1 {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
