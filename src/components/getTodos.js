@@ -105,10 +105,10 @@ function GetTodos() {
                 <Button onClick={() => {
                     currentDisplay(1)
                     handleGetData()
-                }}>Notes</Button>
+                }}>Todos</Button>
                 <Button onClick={() => {
                     currentDisplay(0)
-                }}>Add Notes</Button>
+                }}>Add Todos</Button>
 
             </div>
             {current === 1 ? <div>
