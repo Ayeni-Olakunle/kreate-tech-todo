@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAakGTkcX6Yatl8NY-OyHw_am8auKnbC-U",
+    apiKey: process.env.REACT_APP_SECRET_KEY,
     authDomain: "kreate-tech-todo.firebaseapp.com",
     projectId: "kreate-tech-todo",
     storageBucket: "kreate-tech-todo.appspot.com",

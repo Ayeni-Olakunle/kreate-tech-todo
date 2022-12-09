@@ -38,6 +38,7 @@ export default function AddTodos() {
                 console.log(err.message)
             })
     }
+
     return (
         <div>
             <div>
